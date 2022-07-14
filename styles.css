@@ -1,0 +1,33 @@
+
+	body{
+	background-color:#bbcafa;
+	min-width:600px;
+	
+	}
+	.interest{
+	border-radius:5px;
+	margin : auto;
+	padding : 10px;
+	height:400px;
+	width:600px;
+	background-color:#dfe4f5;
+	}
+	.inside{
+		margin-top: 75px;
+	}
+	.input input{
+		display: block;
+	}
+	.interest .text, .input{
+		display: inline-block;
+	}
+	.input input{
+		margin : 15px;
+	}
+	.type p, input{
+		display: inline-block;
+	}
+	.type input{
+		margin-left: 15px;
+	}
+	
