@@ -26,8 +26,8 @@ function calculate(){
 		var rd_amount = Math.floor((amount * year * fd_interest) / 100);
 		var fd_amount = Math.floor((amount * year * rd_interest) / 100);
 		if(rd_check && fd_check){
-			document.getElementById("rdoutput").innerHTML = `Fixed Deposit : ${rd_amount}`;
-			document.getElementById("fdoutput").innerHTML = `Recurring Deposit : ${fd_amount}`;
+			document.getElementById("rdoutput").innerHTML = `Fixed Deposit : ${fd_amount}`;
+			document.getElementById("fdoutput").innerHTML = `Recurring Deposit : ${rd_amount}`;
 		}else if(rd_check){
 			document.getElementById("rdoutput").innerHTML = `Fixed Deposit : 0`;
 			document.getElementById("fdoutput").innerHTML = `Recurring Deposit : ${rd_amount}`;		
